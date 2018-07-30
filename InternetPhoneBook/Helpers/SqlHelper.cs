@@ -10,7 +10,7 @@ namespace InternetPhoneBook.Helpers
 	{
 		static string connectionString = "Integrated Security=SSPI;" +
 											 "Data Source=.\\SQLEXPRESS;" +
-											 "Initial Catalog=PhoneBook;";
+											 "Initial Catalog=InternetPhoneBook;";
 
 		public static SqlConnection GetConnection()
 		{

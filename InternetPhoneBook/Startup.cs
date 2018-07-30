@@ -26,9 +26,6 @@ namespace InternetPhoneBook
 
 			app.UseStaticFiles();
 			app.UseMvc(routes =>{
-
-				
-
 				routes.MapRoute(
 				name: "default",
 				template: "{controller=Person}/{action=index}");
