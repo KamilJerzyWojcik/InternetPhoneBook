@@ -2,6 +2,8 @@
 
 Technology: ASP.NET Core MVC 2, ADO.NET
 
+Library: Bootstrap
+
 Programming language: C#, HTML, CSS, MS-SQL
 
 ## Introduction
