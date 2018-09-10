@@ -6,7 +6,7 @@ Programming language: C#, HTML, CSS, MS-SQL
 
 ## Introduction
 
-Web application resembling a phone book. Table with colums data: name, surname, phone number, e-mail, date of creation and date of the last edition was implemented. Aadd, delete and edit are validation. The editing date is updated automatically.
+Web application resembling a phone book. Table with colums data: name, surname, phone number, e-mail, date of creation and date of the last edition was implemented. Add, delete and edit are validation, edit date is updated automatically.
 
 http://internet-phonebook.azurewebsites.net
 
