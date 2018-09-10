@@ -1,8 +1,8 @@
 # Internet Phonebook
 
-Technology: ASP.NET Core MVC 2, MS-SQL
+Technology: ASP.NET Core MVC 2, ADO.NET
 
-Programming language: C#, HTML, CSS
+Programming language: C#, HTML, CSS, MS-SQL
 
 ## Introduction
 
