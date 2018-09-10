@@ -29,26 +29,29 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var person in Model)
+            @if (!(Model is null))
             {
-                <tr class="person">
-                    <th scope="row">@person.ID</th>
-                    <td>@person.FirstName</td>
-                    <td>@person.LastName</td>
-                    <td>@person.Phone</td>
-                    <td>@person.Email</td>
-                    <td>@person.Created</td>
-                    @if (person.Updated != null)
-                    {
-                        <td>@person.Updated</td>
-                    }
-                    else
-                    {
-                        <td>unedited</td>
-                    }
-                    <td><a class="btn btn-danger action" asp-action="RemoveConfirm" asp-route-id="@person.ID">Delete</a></td>
-                    <td><a class="btn btn-info action" asp-action="Edit" asp-route-id="@person.ID">Edit</a></td>
-                </tr>
+                @foreach (var person in Model)
+                {
+                    <tr class="person">
+                        <th scope="row">@person.ID</th>
+                        <td>@person.FirstName</td>
+                        <td>@person.LastName</td>
+                        <td>@person.Phone</td>
+                        <td>@person.Email</td>
+                        <td>@person.Created</td>
+                        @if (person.Updated != null)
+                        {
+                            <td>@person.Updated</td>
+                        }
+                        else
+                        {
+                            <td>unedited</td>
+                        }
+                        <td><a class="btn btn-danger action" asp-action="RemoveConfirm" asp-route-id="@person.ID">Delete</a></td>
+                        <td><a class="btn btn-info action" asp-action="Edit" asp-route-id="@person.ID">Edit</a></td>
+                    </tr>
+                }
             }
         </tbody>
     </table>

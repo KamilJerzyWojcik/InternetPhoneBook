@@ -8,9 +8,7 @@ namespace InternetPhoneBook.Helpers
 {
 	public class SqlHelper
 	{
-		static string connectionString = "Integrated Security=SSPI;" +
-											 "Data Source=.\\SQLEXPRESS;" +
-											 "Initial Catalog=InternetPhoneBook;";
+		static string connectionString = "Server=tcp:internet-phonebook.database.windows.net,1433;Initial Catalog=internet-phonebook-database;Persist Security Info=False;User ID=kamilwojcik;Password=asdf123%;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 		public static SqlConnection GetConnection()
 		{
