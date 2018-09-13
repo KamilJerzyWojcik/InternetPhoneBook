@@ -14,6 +14,4 @@ http://internet-phonebook.azurewebsites.net
 
 ## License
 
-Wszystkie prawa zastrzeżone.
-
-All rights reserved.
+The project is available as open source under the terms of the MIT License.
